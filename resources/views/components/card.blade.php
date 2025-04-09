@@ -21,7 +21,7 @@
             <p class="card-text">{{ $arrival_station }}</p>
             <p class="card-text">{{ $departure_time }}</p>
             <p class="card-text">{{ $arrival_time }}</p>
-            <p class="card-text">{{ $train_code }}</p>
+            <p class="card-text">{{ strtoupper($train_code) }}</p>
             <p class="card-text">{{ $total_carriages }}</p>
             <p class="card-text">{{ $is_on_time ? 'In orario' : 'In ritardo' }}</p>
             </p>
